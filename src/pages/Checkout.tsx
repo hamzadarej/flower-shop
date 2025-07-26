@@ -133,7 +133,7 @@ const Checkout = () => {
                     <h3 className="font-medium text-foreground">{item.name}</h3>
                     <p className="text-primary font-semibold">${item.price}</p>
                   </div>
-
+                 <div className='flex items-center flex-wrap justify-center gap-2'>
                   <div className="flex items-center gap-2">
                     <Button
                       variant="outline"
@@ -162,6 +162,7 @@ const Checkout = () => {
                   >
                     <Trash2 className="h-4 w-4" />
                   </Button>
+                 </div>
                 </div>
               ))}
             </div>
