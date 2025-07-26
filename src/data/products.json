@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "Sunset Tulips",
+    "description": "A vibrant bouquet of tulips in warm sunset shades, perfect for brightening any room.",
+    "price": 29.99,
+    "image": "/tulips.jpg",
+    "category": "Indoor Plants",
+    "featured": true
+  },
+  {
+    "id": "2", 
+    "name": "Classic Red Roses",
+    "description": "12 long-stemmed red roses, perfect for romantic gestures and special occasions.",
+    "price": 39.99,
+    "image": "/roses.jpg",
+    "category": "Roses",
+    "featured": true
+  },
+  {
+    "id": "3",
+    "name": "Monstera Plant",
+    "description": "Beautiful monstera deliciosa plant in a modern ceramic pot, ideal for indoor decoration.",
+    "price": 24.99,
+    "image": "/plant.jpg",
+    "category": "Indoor Plants",
+    "featured": false
+  },
+  {
+    "id": "4",
+    "name": "Spring Garden Mix",
+    "description": "Colorful seasonal flowers including daisies, carnations, and baby's breath.",
+    "price": 34.99,
+    "image": "/mix.jpg",
+    "category": "Bouquets",
+    "featured": false
+  },
+  {
+    "id": "5",
+    "name": "White Roses",
+    "description": "Elegant white roses symbolizing purity and new beginnings.",
+    "price": 42.99,
+    "image": "/white-roses.jpg",
+    "category": "Roses", 
+    "featured": false
+  },
+  {
+    "id": "6",
+    "name": "Succulent Garden",
+    "description": "Low-maintenance succulent arrangement in a decorative wooden box.",
+    "price": 19.99,
+    "image": "/succulent.jpg",
+    "category": "Indoor Plants",
+    "featured": false
+  }
+]
