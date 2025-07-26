@@ -42,14 +42,14 @@ const Header = () => {
             >
               Shop
             </Link>
-            <Link 
-              to="/checkout" 
-              className={`font-medium transition-colors hover:text-primary ${
-                isActive('/checkout') ? 'text-primary border-b-2 border-primary' : 'text-foreground'
-              }`}
-            >
-              About
-            </Link>
+            {/*<Link */}
+            {/*  to="/checkout" */}
+            {/*  className={`font-medium transition-colors hover:text-primary ${*/}
+            {/*    isActive('/checkout') ? 'text-primary border-b-2 border-primary' : 'text-foreground'*/}
+            {/*  }`}*/}
+            {/*>*/}
+            {/*  About*/}
+            {/*</Link>*/}
             <Link 
               to="/contact" 
               className={`font-medium transition-colors hover:text-primary ${
@@ -107,15 +107,15 @@ const Header = () => {
               >
                 Shop
               </Link>
-              <Link 
-                to="/checkout" 
-                className={`p-2 rounded-md transition-colors hover:bg-muted ${
-                  isActive('/checkout') ? 'bg-secondary text-primary font-medium' : ''
-                }`}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                About
-              </Link>
+              {/*<Link */}
+              {/*  to="/checkout" */}
+              {/*  className={`p-2 rounded-md transition-colors hover:bg-muted ${*/}
+              {/*    isActive('/checkout') ? 'bg-secondary text-primary font-medium' : ''*/}
+              {/*  }`}*/}
+              {/*  onClick={() => setIsMenuOpen(false)}*/}
+              {/*>*/}
+              {/*  About*/}
+              {/*</Link>*/}
               <Link 
                 to="/contact" 
                 className={`p-2 rounded-md transition-colors hover:bg-muted ${
